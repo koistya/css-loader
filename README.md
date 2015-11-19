@@ -20,11 +20,11 @@ require("style/url!file!./file.css");
 // => add a <link rel="stylesheet"> to file.css to document
 ```
 
-### Placeholders
+### Locals
 
 (experimental)
 
-When using placeholders (see css-loader) the module exports the placeholders object:
+When using locals (see [`css-loader`](https://github.com/webpack/css-loader)) the module exports the `locals` object:
 
 ``` js
 var styles = require("style!css!./file.css");
